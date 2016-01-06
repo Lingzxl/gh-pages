@@ -1,0 +1,346 @@
+
+/*ÎÒµÄÖ÷Ò³*/
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+.center{
+    width:890px;
+    margin-left:130px;
+    background:#fff;
+    min-height:1000px;
+}
+.pcnone{
+    display:none!important;
+}
+.center .mydata,
+.center .databox{
+    width:700px;
+    margin:0 auto 0 auto;
+}
+.center .mydata{
+    padding-top:100px;
+    height:300px;
+    border-bottom:1px solid #dedede;
+}
+.mydata span{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.mydata .dataleft{
+   width:170px;
+    float:left;
+}
+.dataleft li:last-child{
+    padding-left:12px;
+    padding-top:8px;
+}
+.dataleft  span{
+    margin-left:8px;
+    width:40px;
+    font-size: 12px;
+    padding:0;
+    height:25px;
+    line-height:25px;
+    color:#fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background:#848484;
+}
+.mydata .dataright{
+    width:530px;
+    float:left;
+    position:relative;
+}
+.dataright .set{
+    position:relative;
+    width:498px;
+}
+.dataright .set a{
+    font-size:2.2rem;
+   position:absolute;
+    right:37px;
+    z-index:100;
+}
+.dataright .set span{
+    display: inline-block;
+    width:350px;
+    height:40px;
+    line-height: 40px;
+    color:#000000;
+    font-size:2rem;
+    border-bottom:1px solid #dedede;
+}
+.dataright li ul{
+    padding-left:0;
+}
+.dataright li ul li{
+    float:left;
+    width:130px;
+    height:70px;
+}
+.dataright li ul li strong{
+    color:#000000;
+    font-size: 2rem;
+}
+.dataright li ul li a{
+    display: block;
+    cursor: pointer;
+    font-size:14px;
+}
+.dataright  div.unfold {
+    width:130px;
+    padding:0 10px;
+    height:210px;
+    background:#333;
+    position:absolute;
+    right:-15px;
+    top:40px;
+    display:none;
+}
+.unfold em,.unfold  span{
+    display:block;
+    width:30px;
+    height:0;
+    font-size:30px;
+    overflow:hidden;
+    margin-left:10px;
+}
+.dataright .unfold  span{
+    height:36px;
+    font-size:43px;
+    position:absolute;
+    left:47px;
+    top:-21px;
+}
+.unfold  em{
+    margin-top:-14px;
+    color:#333;
+    font-style:normal;
+}
+.unfold span{
+    margin-top:-14px;
+    color:#333;
+}
+.dataright .unfold ul{
+    padding-left:0;
+}
+.dataright .unfold li{
+    width:110px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    border-top:2px solid #fff;
+}
+.dataright .unfold  li:first-child{
+    border-top:none;
+}
+.dataright  .unfold  a{
+    font-size:1.2rem;
+    color:#fff;
+}
+.center .databox{
+    margin-top:65px;
+}
+.classifynav{
+    width:600px;
+    height:50px;
+    padding-left:0;
+    margin:0;
+}
+.classifynav li{
+    width:120px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    cursor: pointer;
+    text-align:center;
+}
+.addborder{
+    border-top:1px solid #dedede;
+    border-left:1px solid #dedede;
+    border-right:1px solid #dedede;
+}
+.addtwo{
+    border-bottom:1px solid #dedede;
+}
+.databox .classifynav a{
+    color:#000;
+    font-size:1.5rem;
+}
+ .classifycont{
+    border:none;
+}
+#tab2,#tab3{
+    display: none;
+}
+#concernbox ul,
+ #mybox ul{
+     padding:0;
+    margin-bottom:0;
+ }
+.classifycont li{
+   height:175px;
+    margin-top:30px;
+    padding-bottom:20px;
+    border-bottom:1px solid #dedede;
+}
+#tab3 li:first-child{
+    margin-top:0;
+}
+.classifycont li:last-child{
+    border:none;
+}
+.classifycont .cover,
+.classifycont .sgimg,
+.classifycont .sgimg img{
+    width:390px;
+    float:left;
+    height:160px;
+}
+.classifycont .cover{
+    line-height:160px;
+    text-align: center;
+    font-size:2.5rem;
+    border:1px solid #dedede;
+}
+.classifycont li div{
+    width:310px;
+    float:left;
+    padding-top:60px;
+    padding-left:30px;
+}
+#tab3 li div{
+    padding-top:40px;
+}
+#tab1  li div p:first-child,
+#tab2 li div p:first-child,
+#tab3 li div p:nth-child(2){
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height:40px;
+}
+#tab3 li div p:first-child{
+    font-size:1.4rem;
+}
+#tab1 li div span,
+ #tab2 li div p:last-child{
+     font-size:1.3rem;
+     color:#999;
+ }
+#mybox li a{
+    margin-right:10px;
+    font-size: 1.3rem;
+    color:#666;
+}
+#tab1 li a:last-child{
+    color:#999;
+    margin-left:10px;
+}
+.classifycont  li strong{
+    font-weight:normal;
+}
+#tab3 .collectbtn{
+    height:50px;
+    line-height: 50px;
+}
+#tab3 .collectbtn span{
+    padding:5px 8px;
+    margin-right: 10px;
+    font-size:1.2rem;
+    cursor:pointer;
+    color:#000;
+    border:1px solid #797979;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+#tab3 .collectbtn .changebtn{
+    background: #5c5c5c;
+    margin-right:10px;
+    color:#fff;
+}
+#tab3 .collsong{
+    display:none;
+}
+#tab3 .collsong li{
+    border-bottom:1px solid #dedede;
+    padding-top:30px;
+    padding-left:60px;
+    height:140px;
+}
+#tab3 .collsong img,
+#tab3 .collsong p{
+    width:90px;
+    height:90px;
+    float:left;
+    margin-right:20px;
+}
+#tab3 .collsong  span{
+    display: block;
+    line-height:30px;
+    font-size:1.2rem;
+}
+#tab3 .collsong  span:first-child{
+    color:#00bfff;
+    line-height:40px;
+    font-size:1.8rem;
+}
+#concernbox{
+    display:none;
+}
+#concernbox #tab5{
+    display:none;
+}
+#concernbox .classifycont ul{
+    margin-top:30px;
+}
+#concernbox .classifycont li{
+    width:240px;
+    margin-bottom:20px;
+    margin-right:20px;
+    display: inline-block;
+    height:105px;
+    padding:20px;
+    background: #f2f2f2;
+    border:none;
+}
+#concernbox p{
+    width:68px;
+    float:left;
+}
+#concernbox p:last-child{
+    width:130px;
+}
+#concernbox p img{
+    margin-top:10px;
+}
+#concernbox p a,
+#concernbox p span{
+    display:block;
+    line-height: 40px;
+}
+#concernbox p a{
+    font-size: 1.8rem;
+    color:#000
+}
+#concernbox p span
+{
+    margin-right:8px;
+    margin-left:0;
+    width:30px;
+    padding:0;
+    float:left;
+    font-size:8px;
+    color:#fff;
+    height:17px;
+    line-height:15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background:#808080;
+}
+
+

@@ -1,0 +1,63 @@
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-10 10:50:32
+ * @version $Id$
+ */
+
+a:link{color: #fff;text-decoration: none}
+a:visited{color: #999;text-decoration: none}
+a:hover{color: #fff;text-decoration: none}
+a:active{color: #fff;text-decoration: none}
+
+body{
+    background: #fff!important;
+}
+
+.mobilenone{
+    display: none !important;
+}
+.pcnone{
+    display:block !important;
+}
+
+/*ÊÖ»ú±à¼­Ò³*/
+.wrapper{
+    width:100%;
+}
+
+.center{
+    width:100%;
+    min-height:480px;
+    margin-left:0;
+    position:relative;
+}
+.songbox{
+    width:100%;
+    padding-top:0;
+}
+.songbox .sgtop {
+    color:#fff;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    background: #2b2b2b;
+}
+.songbox .sgtop>a{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    font-size: 3rem;
+    width:50px;
+    height:40px;
+    line-height:40px;
+    background: #222022;
+}
+.songbox .select{
+    margin-bottom:0;
+}
+.wdselect p{
+    width:100%;
+    margin-left:0;
+}

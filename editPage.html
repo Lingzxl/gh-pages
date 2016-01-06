@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>如歌</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+    <link rel="stylesheet" type="text/css" href="css/amazeui.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/pcComment.css">
+    <link rel="stylesheet" type="text/css" href="css/editPc.css">
+    <link rel="stylesheet" href="css/editMb.css"  type="text/css" media="(max-width:614px)" />
+</head>
+<body>
+<div class="wrapper">
+
+    <!---左边开始-->
+    <div class="pcleft mobilenone" id="pcleft"></div>
+
+    <!-- 编辑页中间部分-->
+    <div class="center">
+        <!-- 中间部分左侧-->
+        <div class="cleft mobilenone">
+            <div class="edit am-cf ">
+                <p>无标题文章</p>
+                <p><span class="am-fl">未发布</span><span class="am-fr">2015-04-23</span></p>
+            </div>
+            <div class="publish ">
+                <p>因为耿耿于怀，所以念念不忘</p>
+                <p><span class="am-fl">已发布</span><span class="am-fr">2015-04-23</span></p>
+            </div>
+        </div>
+        <!-- 中间部分右侧-->
+        <div class="cright">
+            <div class="add mobilenone">
+                <p><b class="am-icon-plus"></b>添加封面</p>
+            </div>
+            <div class="upload mobilenone">
+                <span class="am-icon-btn am-icon-close"></span>
+                <p style="color:#000;">本地上传<strong style="color:#999">或</strong>网络图片</p>
+                <button type="button">选择图片上传</button>
+                <p style="font-size:1.2rem">请不要上传与主题无关或色情的图片</p>
+            </div>
+            <div class="edtit mobilenone ">
+                <textarea  placeholder="无标题文章"></textarea>
+            </div>
+            <!-- 手机端上部-->
+            <div class="mbedit pcnone">
+                <form>
+                    <div class="top">
+                        <a href="#" class="am-icon-long-arrow-left"></a>
+                        <span style="font-size:2rem;vertical-align:top;">编辑歌曲</span>
+                        <input type="button" class="am-fr" value="发布" style="margin-right:15px;font-size:2.2rem"/>
+                    </div>
+                    <input type="text" placeholder="+添加封面"/>
+                    <div class="bot" style="padding:1rem">
+                        <input type="search" placeholder="请输入标题" style="height:40px;font-size:2.3rem;margin-bottom: 10px;"/>
+                        <a href="choSong.html"><input type="search" placeholder="请选择歌曲" style="height:30px;line-height:30px;font-size:1.5rem;margin-bottom: 10px;"/></a>
+                        <textarea  placeholder="请输入正文"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="editwrite">
+                <!-- pc端、手机端下图标-->
+                <div class="edicon" style="height: 53px;">
+                        <span class="icon am-fl" >
+                           <a href="songWord.html" class="word">词</a>
+                           <a href="#" class="am-icon-rotate-left"></a>
+                           <a href="#" class="am-icon-rotate-right"></a>
+                           <a href="#" class=" am-icon-chevron-down am-fr pcnone"></a>
+                       </span>
+                       <span class="btn am-fr mobilenone">
+                          <a href="#">保存</a>
+                          <a href="#">发布</a>
+                       </span>
+                </div>
+                <!-- pc端下部分选择歌词-->
+                <div class="edtxt mobilenone">
+                    <form class="am-form">
+                        <div style="width:100%;padding-left:20px;">
+                            <button class="amtoggle">
+                                <span>请选择歌曲></span>
+                            </button>
+                            <div class="amcontent">
+                                <p><input type="search" placeholder="请选择歌曲名称"/><span><img src="images/u114.png"/></span></p>
+                            </div>
+                        </div>
+                        <textarea  placeholder="输入文本....."></textarea>
+                    </form>
+                    <div class="popchoose">
+                        <p>歌曲</p>
+                        <ul>
+                            <li><span>罗门生</span><span>-麦浚龙</span></li>
+                            <li><span>罗门生</span><span>-麦浚龙</span></li>
+                            <li><span>罗门生</span><span>-麦浚龙</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height:150px;"></div>
+    <!--- 右边开始-->
+    <div class="pcright mobilenone" id="pcright"></div>
+
+
+</div>
+<script type="text/javascript" src="jquery/jquery-2.1.3.min.js"></script>
+<!-- 滚动条4个js -->
+<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="jquery/jquery-mousewheel.js"></script>
+<script type="text/javascript" src="jquery/jScrollbar.jquery.js"></script>
+
+<script type="text/javascript" src="js/pcComment.js"></script>
+<script type="text/javascript" src="js/detail.js"></script>
+<script type="text/javascript" src="js/mobile.js"></script>
+
+<script type="text/javascript">
+    /* 编辑页向上滑动到一定高度固定*/
+    $(document).ready(function(e) {
+        var edt=$(".editwrite");
+        var win=$(window);
+        var sc=$(document);
+
+        win.scroll(function(){
+            if(sc.scrollTop()>=359){
+                sc.scrollTop(359);
+                edt.addClass("fixededit");
+            }else{
+                edt.removeClass("fixededit");
+            }
+        })
+    });
+</script>
+</body>
+</html>

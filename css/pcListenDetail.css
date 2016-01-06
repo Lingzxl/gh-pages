@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-12-08 13:59:06
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+ body{
+	background: #000;
+} 
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.pcnone{
+	display: none;
+}
+
+.wrapper{
+	width:1280px;
+	margin:0 auto;
+    position: relative;
+}
+
+.wrapper .content{
+	width: 890px;
+	background-color: #fff;
+	margin-left: 130px;
+	position: absolute;
+	background-color: #fff;
+	min-height: 1000px;
+}
+
+.wrapper .content .pccontent{
+	width: 65%;
+	margin-left:12%;	
+}
+
+.pccontent .pcimg{
+	width:100%;
+	height:235px;
+	background-image: url(../images/u24.png);
+	background-size: 100% 100%;
+	background-position: center center;
+}
+
+.content1{
+	position: relative;
+	top:20px;
+}
+
+.content1 .contitle .title1{
+	font-size: 2.2rem;
+	color:#000;
+	font-weight: bold;
+}
+
+.content1 .contitle .title2{
+	font-size: 1.6rem;
+	color:rgb(148,148,148);
+	margin-bottom: 15px;
+}
+
+.photo,.like{
+	display: inline;	
+}
+
+.like{ 
+    margin-left:5%;
+}
+
+.content1 .contitle .title3 span{
+	font-size: 1.4rem;
+}
+
+section{
+	font-size: 1.8rem;
+	color:rgb(102,102,102);
+}
+
+section p{
+	text-indent: 2em;
+	line-height: 35px;
+}
+
+.foot{
+	display: block;
+	margin-top: 60px;	
+}
+
+.btnlike{
+	width: 100%;
+	height: 180px;
+	margin-top: 10px;
+	margin:0 auto;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #E4E4E4;
+	position: relative;	
+}
+
+.btnlike span{
+	color:#000;
+	font-size: 1.7rem;
+}
+
+.btn{
+	width: 26%;
+	height: 55px;
+	background: #fff;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 12px;
+	border-radius: 8px;
+	border-style: solid; 
+	border-width: 1px;
+}
+
+.btnlike .icon{
+	width:100%;
+	height: 17%;
+	position: absolute;
+	bottom:0;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.icon .qq,.icon .weixin,.icon .weibo,.icon span{
+    font-size: 1.6rem;
+}
+
+.icon ul{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	top:-19px;
+}
+
+.icon ul li{
+	float: left;
+	padding-left: 8px;
+}
+
+.am-icon-btn{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+ 
+.foot .song1,.foot .author{
+ 	width: 30%;
+ 	height:110px;
+ 	float: left;
+ 	position: relative;
+ 	margin-bottom: 50px;
+ }
+
+.foot .song1 .qu,
+.foot .song1 .sname{
+  	position: absolute;
+  	top:15px;
+  	left:50%;
+  }
+
+.foot .song1 .sname{
+   	top:55px;
+  }
+
+.foot .author{
+  	width: 70%;
+  }
+
+.foot .author .ququ,
+.foot .author .snamesname{
+ 	position: absolute;
+  	top:15px;
+  	left:22%;
+  }
+
+.foot .author .snamesname{
+  	top:55px;
+  }
+
+.author img{
+	width:80px;
+    height:80px; 
+    border-radius:50%;
+}
+
+.pccontent .talk_list{
+	width: 100%;
+	height: 600px;
+	margin-top: 150px;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+.pccontent .talk_list .button{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 18%;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	color:#fff;
+	background-color: #333333;
+	margin-bottom: 20px;
+}
+
+.pccontent .talk_list .list1{
+   width: 100%;
+   height: 100px;
+   border-bottom-style: solid;
+   border-width: 1px;
+   border-color: #EEEEEE;
+   position: relative;
+}
+
+.list1 img{
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+}
+
+.list1 .author,.list1 .time{
+	position: absolute;
+	top:5px;
+	left:10%;
+	font-size: 1.4rem;
+}
+
+.list1 .time{
+	top:30px;
+	color:#999999;
+}
+
+.list1 .time span{
+	font-size: 1.2rem;
+}
+
+.list1 .answer{
+	position: absolute;
+	bottom:0;
+	right:0;
+	color:#999999;
+	font-size: 1.4rem;
+}
+
+.list1 p{
+	color:#999999;
+	margin-top: 10px;
+}
+
+.pccontent .talk_list .list_last{
+	text-align: center;
+}
+
+.textarea{
+	width: 100%;
+	height: 135px;
+	background-color: #fff;
+	border-radius: 5px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D9D9D9;
+}
+
+textarea{
+	width: 100%;
+	height: 100px;
+	outline: none;
+	resize:none;
+	text-indent: 1rem;
+}
+
+.textarea button{
+	border-radius: 5px;
+	width:80px;
+	height:35px;
+	background-color: #000;
+	color:#fff;
+	position: absolute;
+	bottom:5px;
+	right: 5px;
+	outline: none;
+}
+

@@ -1,0 +1,76 @@
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+.center{
+    width:890px;
+    margin-left:130px;
+    background:#fff;
+    min-height:1000px;
+}
+
+.pcnone{
+    display:none;
+}
+.centerbox{
+    width:720px;
+    padding-top:100px;
+    height:100%;
+    margin:0 auto 0 auto;
+}
+.csearch{
+    width:560px;
+    float:right;
+    line-height:40px;
+    height:40px;
+    position: relative;
+}
+.centerbox .csearch input{
+    line-height:41px;
+    height:41px;
+    width:510px;
+}
+.centerbox .csearch span{
+    position:absolute;
+    right:50px;
+    top:-2px;
+    cursor:pointer;
+}
+.clist{
+    margin-top:60px;
+    min-height:100px;
+}
+.clist table{
+    width:720px;
+}
+.clist tbody tr{
+    width:576px;
+    height:150px;
+    border-bottom:1px solid #dedede;
+}
+.clist tbody .nam{
+    width:460px;
+}
+.clist tbody span{
+    display:block;
+    width:100px;
+    font-size:1.4rem;
+    height:35px;
+    line-height:35px;
+}
+.clist tbody .songname{
+    font-size:2rem;
+    color:#00bfff;
+}
+.clist tbody .choose{
+    text-align:center;
+    width:60px;
+    cursor:pointer;
+    border:1px solid #adadad
+}
+.clist tbody img{
+    margin-right:20px;
+}
+
+

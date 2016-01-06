@@ -1,0 +1,90 @@
+a:link{color: #999;text-decoration: none}
+a:visited{color: #999;text-decoration: none}
+a:hover{color: #999;text-decoration: none}
+a:active{color: #999;text-decoration: none}
+
+body{
+    background: #fff!important;
+}
+.mobilenone{
+    display: none !important;
+}
+.pcnone{
+    display:block !important;
+}
+
+/*ÊÖ»ú±à¼­Ò³*/
+.wrapper{
+    width:100%;
+    height: 100%;
+}
+.setmobile>p{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    background: #2b2b2b;
+}
+.setlist ul{
+    padding-left: 0;
+}
+.setlist li a{
+    display: inline-block;
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    padding-left:20px;
+    border-bottom:1px solid #dedede;
+}
+.setlist li:first-child a{
+    height:130px;
+    line-height: 120px;
+}
+.setlist li:last-child a{
+    margin-top:30px;
+    text-align: center;
+    color:#ff3b00;
+    padding-left: 0;
+    border-top:1px solid #dedede ;
+}
+.setlist li img{
+    width:100px;
+    height:100px;
+}
+.setlist li:first-child span:nth-child(2){
+    display: inline-block;
+    line-height: 20px;
+    margin-left:20px;
+    width:100px;
+}
+.setlist li span:last-child{
+    float:right;
+    font-size: 2rem;
+    margin-right:30px;
+}
+.setlist li strong{
+    color:#000;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.setlist li strong:last-child{
+    color:#999;
+    font-size: 1.4rem;
+}
+.wrapper .tabicon{
+    padding-left:10%;
+    width:100%;
+    height:50px;
+    position:fixed;
+    bottom:-10px;
+    background: #fff;
+    border-top:1px solid #dedede;
+}
+.tabicon span{
+    display:inline-block;
+    color:#6699ff;
+    font-size:2.2rem;
+    width:18%;
+    font-weight:normal;
+    height:30px;
+}

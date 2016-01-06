@@ -1,0 +1,262 @@
+
+/*content*/
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+.center{
+    width:890px;
+    margin-left:130px;
+    background:#fff;
+    min-height:1000px;
+}
+.pcnone{
+    display: none;
+}
+.left p a:visited{
+    color:#999;
+}
+.center{
+    min-height:1500px;
+}
+.center .cleft{
+    width:200px;
+    float:left;
+}
+.center .cleft div{
+    height:100px;
+    padding-left:20px;
+    padding-right:10px;
+    border-bottom:1px solid #dedede;
+}
+.center .edit{
+    background:#eaeaea;
+}
+ .center .cleft p {
+    font-size:1.6rem;
+    line-height:50px;
+     font-weight:700;
+}
+.center  .publish p{
+    line-height:25px;
+    color:#525252;
+    margin-bottom:20px;
+}
+.center .cleft p span{
+    font-size:1rem;
+    color:#c9c9c9;
+    font-weight:normal;
+}
+.center .cright{
+    width:687px;
+    float:left;
+    min-height:1500px;
+    padding-bottom:100px;
+    position: relative;
+    border-left:1px solid #dedede;
+}
+.cright .add{
+    width:640px;
+    height:260px;
+    font-size:2rem;
+    line-height: 260px;
+    margin:0 auto;
+    border:1px solid #eaeaea;
+}
+.cright input:focus,
+.cright button:focus{
+    outline: hidden;
+}
+.add p{
+    margin:100px 0 0 240px;
+    width:115px;
+    height:30px;
+    line-height:30px;
+    cursor:pointer;
+}
+.add b{
+    display:inline;
+    position:static;
+    text-align:center;
+    width:50px;
+    color:#999;
+    background:none;
+    border:none;
+}
+.fixededit{
+    position:fixed;
+    top:0;
+}
+.cright .edtit{
+    color:#000;
+    width:687px;
+    margin-top:20px;
+    height:80px;
+    padding-left:20px;
+    font-size:2.2rem;
+    border-bottom:1px solid #dedede;
+}
+.cright .upload{
+    width:350px;
+    height:270px;
+    display:none;
+    position:absolute;
+    top:140px;
+    left:150px;
+    padding:10px 10px 0 0;
+    background: #fff;
+    z-index:100;
+    border:1px solid #dedede;
+}
+.upload span:first-child {
+    font-size:1rem;
+    color:#fff;
+    float:right;
+    cursor:pointer;
+    background:#adadad;
+    width:20px;
+    height:20px;
+    line-height: 19px;
+}
+.upload button{
+    width:200px;
+    background:#000000;
+    color:#fff;
+    line-height:40px;
+    height:40px;
+    border:none;
+    margin:20px 0 0 70px;
+    font-size:1.4rem;
+}
+.upload p{
+    margin-top:60px;
+    padding-left:60px;
+}
+.upload p:last-child{
+    padding-left:30px;
+}
+.edtit textarea {
+    width: 660px;
+    height:70px;
+    line-height:30px;
+    border:none;
+    resize: none;
+}
+.cright .edicon{
+    height:50px;
+    padding:0 10px 0 20px;
+    border-bottom:1px solid #dedede;
+    line-height:50px;
+}
+
+.cright .edicon a{
+    display:inline-block;
+    text-align:center;
+    width:50px;
+    font-size:1.8rem;
+}
+.cright .edicon .word{
+    width:25px;
+    font-size:1.6rem;
+    margin:0 15px;
+    color:#000;
+    height:25px;
+    line-height:25px;
+    border:1px solid #dedede;
+}
+.cright .btn a{
+    margin-top:5px;
+    width:70px;
+    height:40px;
+    line-height:40px;
+    color:#7a7a7a;
+    font-size:1.4rem;
+}
+.cright .btn a:last-child{
+    background:#4d4d4d;
+    color:#fff;
+}
+.cright .edtxt{
+    padding-top:30px;
+    position:relative;
+}
+
+.edtxt .amtoggle{
+    background:none;
+    border:none;
+    padding:0;
+    margin-bottom:1rem;
+}
+.edtxt .amcontent{
+    border:none;
+    position:absolute;
+    top:30px;
+    left:225px;
+    display:none;
+}
+.edtxt .amcontent input{
+    background:none;
+}
+.edtxt .amcontent span{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.edtxt .popchoose{
+    position:absolute;
+    left:225px;
+    top:80px;
+    width:250px;
+    display:none;
+    z-index: 9999;
+    padding:10px 20px 0 20px;
+    height:270px;
+    font-size:1.5rem;
+    color:#333;
+    background: #fff;
+    border:1px solid #dedede;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.edtxt .popchoose li{
+    width:200px;
+    margin-top:10px;
+    line-height:35px;
+    border-bottom:1px solid #dedede;
+}
+.edtxt .popchoose ul{
+    padding-left:0;
+}
+.edtxt .popchoose p{
+    margin-top:20px;
+}
+ .popchoose li span:first-child{
+    color:#00bfff;
+}
+.edtxt button span{
+    display:block;
+    font-size:1.4rem;
+    line-height:40px;
+    text-align:center;
+    width:190px;
+    border:1px solid #dedede;
+    color:#999;
+}
+.edtxt textarea{
+    width:665px;
+    height:800px;
+    margin-left:20px;
+    border:none;
+    resize:none;
+    margin-right: auto;
+    padding: 3px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*±à¼­Ò³Ê×Ò³½áÊø*/
+

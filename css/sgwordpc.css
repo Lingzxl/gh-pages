@@ -1,0 +1,60 @@
+
+
+/*∏Ë¥ ≤•∑≈“≥*/
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+.center{
+    width:890px;
+    margin-left:130px;
+    background:#fff;
+    min-height:1000px;
+}
+.pcnone{
+    display: none;
+}
+.songbox{
+    padding-top:120px;
+    width:520px;
+    margin:0 auto;
+}
+.songbox .select{
+    line-height:40px;
+    height:40px;
+    font-size:1rem;
+    margin-bottom:30px;
+    text-align:center;
+}
+.select .btn{
+    background:#3b3b3b;
+    display:inline-block;
+    width:80px;
+    font-size:1.4rem;
+    color:#fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.wdselect{
+    min-height:100%;
+}
+.wdselect p{
+    width:370px;
+    height:100%;
+    font-size: 1.4rem;
+    margin-left:40px;
+    text-align:center;
+    color:#3d3d3d;
+}
+.wdselect span{
+    display: block;
+    line-height:30px;
+}
+.wdselect span:first-child{
+    background:#000000;
+    color:#00bfff;
+}
+
+

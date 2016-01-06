@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-12-16 14:06:47
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+body{
+	background: #fff !important;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	border: none;
+}
+
+.content a {
+	width: 90%;
+}
+
+.content img{
+	display: none;
+}
+
+.footer{
+	display: block;
+}
+
+footer{
+	display: block!important;
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.am-modal{
+	height: 100%;
+}
+
+#doc-modal-1 footer,
+#doc-modal-2 footer{
+	left:-54px;
+	bottom: 20px;
+}
+
+footer span{
+    margin-left: 25%;
+}
+
+footer ul{
+	list-style: none;
+	margin-left: -50px;
+}
+
+#doc-modal-1 footer ul,
+#doc-modal-2 footer ul{
+	margin-left: 55px;
+}
+
+footer ul li{
+	width: 20%;
+	height: auto;
+	float: left;
+	margin-top: 8px;
+	text-align: center;
+}
+
+footer ul li span{
+	opacity: 0.6;
+}
+
+.addcolor span{
+	color:gray;
+}
+
+/* .footer{
+	display: block;
+}
+
+footer{
+	display: block!important;
+	background-color: #fff;
+	height: 55px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid gray;
+}
+
+footer span{
+    margin-left: 25%;
+}
+
+.toleft,.toright,.export,.page,.copy{
+	width: 23%;
+	height: 55px;
+	float: left;
+	text-align: center;	
+	background: url(../images/u0.png);
+}
+
+.toleft{
+    width: 15%;	
+	background-position: -20px 75px;	
+}
+
+.toright{
+	width: 15%;
+	background-position: -180px 75px;
+}
+
+.export{
+	background-position: -340px 75px;
+}
+
+.page{
+	background-position: -500px 75px;
+}
+
+.copy{
+	background-position: -660px 75px;
+} */
+
+/* 弹出框 重设密码*/
+.am-modal{
+	top:5%;
+	margin-top:0!important;
+}
+
+.am-modal-dialog{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D7D7D7;
+	height: 270px! important;
+	width: 300px! important;
+	margin:0 auto;
+}
+
+.am-modal h1,.am-modal-hd .imgl,.am-modal-hd .imgr{
+	display: none;
+}
+
+.am-modal-bd form,.am-modal-dialog{
+	border: none;
+	margin: 20px auto;
+}
+
+.am-modal-bd a{
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0; 
+}
+
+.am-modal-hd p{
+	color:#D7D7D7;
+}
+
+.am-modal-bd button{
+	border-radius: 0;
+	width: 35%;
+}

@@ -1,0 +1,89 @@
+
+@charset "UTF-8";
+/* 
+* @Author: admin
+* @Date:   2015-12-21 11:24:51
+* @Last Modified by:   admin
+* @Last Modified time: 2015-12-21 11:39:12
+*/
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin: 0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+a:link{color: #fff;text-decoration: none;}
+a:visited{color: #fff;text-decoration: none;}
+a:hover{color: #fff;text-decoration: none;}
+a:active{color: #fff;text-decoration: none;}
+
+body{
+	background: #fff!important;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.mobilenone{
+	display:none!important;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 5px auto;
+}
+header{
+	height: 120px;
+}
+
+header p{
+	display: none;
+}
+
+.mobile{
+	display: block;
+}
+
+.content .message button{
+	width: 80%;
+	margin:20px auto;
+}
+
+.content{
+	width: 95%;
+}
+
+.about{
+	width: 100%;
+}
+
+.about input{
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	color:gray;
+}
+
+.about span{
+	float: left;
+	color:gray;
+}
+
+
+.am-icon-btn {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.zhuce a{
+	color:#00B9F2;
+}
+
+.footer{
+	margin-top: 60px;
+}

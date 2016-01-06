@@ -1,0 +1,563 @@
+.wrapper{
+    width:1280px;
+    margin:0 auto;
+    position:relative;
+}
+.center{
+    width:890px;
+    margin-left:130px;
+    background:#fff;
+    min-height:1000px;
+}
+.pcnone{
+    display:none;
+}
+.setnav{
+   padding:80px 0 50px 70px;
+}
+.setnav li{
+    float:left;
+    width:110px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+}
+.addborder{
+    border-top:1px solid #dedede;
+    border-left:1px solid #dedede;
+    border-right:1px solid #dedede;
+}
+.addtwo{
+    border-bottom:1px solid #dedede;
+}
+.setnav li a{
+    color:#000;
+    font-size:1.5rem;
+}
+.setcontent{
+    color:#666;
+    font-size:1.4rem;
+}
+.perdata>div{
+    width:690px;
+    padding:0 20px 0 15px;
+    margin:0 auto;
+    border-bottom: 1px solid #dedede;
+}
+.perdata{
+  min-height:1000px;
+}
+.account,.feedback,.about{
+    width:690px;
+    height:auto;
+    margin:0 auto;
+    display:none;
+}
+.perdata .retract{
+    height:65px;
+    line-height: 65px;
+    text-align: right;
+}
+.perdata .hdchange .retract{
+    height:95px;
+    line-height: 95px;
+}
+.perdata .retract span:first-child{
+    margin-right:30px;
+}
+.perdata .retract a{
+    cursor: pointer;
+    color:#666;
+}
+.perdata .retract span{
+    float:left;
+}
+.perdata .retract .pack{
+  display: none;
+}
+.perdata .retract img{
+    width:60px;
+    height:60px;
+}
+.extend p a,
+.perdata .retract span a{
+    display: inline-block;
+    width:40px;
+    height:25px;
+    line-height:25px;
+    font-size:1.2rem;
+    color:#fff;
+    text-align:center;
+    margin-right:15px;
+    background:#858585;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.perdata form{
+    padding-bottom: 15px;
+}
+.hdchange form{
+    padding-bottom:8px;
+    padding-top:10px;
+    position:relative;
+    width:360px;
+    clear:left;
+}
+.feedback button,
+.labchange p button,
+.perdata input[type=button]{
+    font-size:1.2rem;
+    color:#fff;
+    width:45px;
+    height:30px;
+    border:none;
+    background: #000;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.hdchange form p{
+   float:right;
+    color:#999;
+    height:40px;
+    line-height:40px;
+}
+.hdchange form p input{
+    position: absolute;
+    bottom:10px;
+    right:80px;
+}
+.hdchange form input[type=text]{
+    height:100px;
+    width:100px;
+    margin-left:20px;
+}
+.namchange p{
+    height:40px;
+    line-height: 40px;
+}
+.namchange form>input{
+    margin-top:15px;
+}
+.namchange p input{
+    height:25px;
+    line-height: 25px;
+}
+.genchange input{
+    margin-left: 10px;
+}
+.genchange input:last-child{
+    display:block;
+    margin-left:0;
+    margin-top:20px;
+}
+
+.labchange .retract span:nth-child(2){
+    line-height: 25px;
+    margin-top:20px;
+}
+.labchange .extend {
+    width:410px;
+    height:auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+.labchange .extend p:first-child{
+    padding-left:7rem;
+    text-indent: -5rem;
+    height: 300px;
+}
+.labchange .extend p span{
+    float: left;
+    width:0;
+    text-indent: -7rem;
+}
+.labchange .extend a{
+    text-indent:0;
+    float:left;
+    cursor: pointer;
+    margin-right:30px;
+    margin-bottom: 15px;
+}
+.labchange .extend p:nth-child(2){
+    clear:left;
+    text-align: center;
+}
+ .perdata .extend{
+     display:none;
+ }
+.account p{
+    line-height:50px;
+}
+ .account p:first-child{
+    font-size: 1.2rem;
+    color:#999;
+ }
+.account p span{
+    display: inline-block;
+    width:85px;
+}
+.account p a{
+    display: inline-block;
+    height:22px;
+    line-height: 22px;
+}
+.account #micro{
+    padding:0 20px 0 30px;
+    background: url(../images/u32a.png) no-repeat;
+}
+.account #wb{
+    padding:0 20px 0 30px;
+    background: url(../images/u32b.png) no-repeat;
+}
+.account #ten{
+    padding: 0 20px 0 30px;
+    background: url(../images/u32c.png) no-repeat;
+}
+.account .amend{
+    margin-left: 10px;
+}
+.account #pwchange{
+    margin-left:0;
+}
+#test{
+    display:none;
+    width:450px;
+    height:310px;
+    background:#fff;
+    color:#000;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#test p:first-child{
+    height:35px;
+    color:#fff;
+    line-height: 30px;
+    font-size: 1.4rem;
+    background: #1474d7;
+    padding:0 10px 0 15px;
+}
+#test p:first-child a{
+    height:18px;
+    line-height: 18px;
+    font-size: 1.4rem;
+    margin-top: 7px;
+    width:15px;
+    float:right;
+}
+#test p:nth-child(2){
+    color:#999;
+    padding-left:15px;
+    font-size: 1.4rem;
+}
+#test form{
+    width:100%;
+    height:145px;
+    border-bottom: 1px solid #dedede;
+}
+#test select,
+#test input{
+    display: block;
+    width:220px;
+    height:30px;
+    margin:0 auto 15px auto;
+}
+#test input:last-child{
+    width:60px;
+    height:36px;
+    float:right;
+    color:#fff;
+    border:none;
+    background: #1474d7;
+    margin-right: 120px;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#test p:last-child{
+    color:#999;
+    margin-top: 15px;
+    line-height: 25px;
+    padding-left:15px;
+    padding-right: 50px;
+}
+#test p:last-child span{
+    color:#1474d7;
+}
+#setmail,#mailcode,#mailsucc,#setted,#safetest,#phonesucc,#setphone,#phonecode,
+#phonesucc,#phonest,#phtest,#logtest,#newpd,#changesucc{
+    width:450px;
+    height:280px;
+    background:#fff;
+    color:#000;
+    display:none;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#logtest,#newpd,
+#phonest,#phtest,
+#setted,#safetest{
+    display: none;
+    height:350px;
+}
+#logtest,
+#phtest,
+#safetest{
+    height:450px;
+    width:490px;
+}
+#newpd form,#changesucc form,
+#setmail form,#mailsucc form,#setted form,
+#setphone form,#phonesucc form,#phonest form{
+    width:100%;
+    text-align: center;
+}
+#newpd form{
+    text-align: left;
+}
+#logtest>p:nth-child(2),#changesucc p,
+#mailsucc p,#setted p,#safetest>p:nth-child(2),#safetest>p:nth-child(3),
+#phonecode p:last-child,#phonesucc p,#phonest p,#phtest>p:nth-child(2),#phtest>p:nth-child(3){
+    text-align: center;
+}
+#changesucc p:first-child,#newpd>p:first-child,#logtest>p:first-child,
+#setmail p:first-child,#mailcode p:first-child,#mailsucc p:first-child,#setted p:first-child,#safetest>p:first-child,
+#setphone p:first-child,#phonecode p:first-child,#phonesucc p:first-child,#phonest p:first-child,#phtest>p:first-child{
+    height:40px;
+    color:#fff;
+    line-height: 40px;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #1474d7;
+    padding:0 10px 0 15px;
+}
+#newpd p:nth-child(2),
+#phonecode p:last-child{
+    color:#999;
+}
+#newpd>p:nth-child(2),
+#newpd form>p{
+    margin-left:20px;
+}
+#newpd p:nth-child(2),
+#changesucc p,
+#phonesucc p,
+#mailsucc p{
+    font-size: 1.8rem;
+}
+#logtest p,
+#phtest p,
+#safetest p{
+    height:30px;
+}
+#logtest>p:nth-child(2),
+#phtest>p:nth-child(2),
+#safetest>p:nth-child(2){
+    height:160px;
+}
+#logtest p:nth-child(3),
+#phonecode p:nth-child(2),#phtest p:nth-child(4),
+#mailcode p:nth-child(2),#safetest p:nth-child(4){
+    color:#999;
+    height:40px;
+    font-size: 1.6rem;
+    padding-left:20px;
+}
+#newpd p:nth-child(2){
+    line-height:30px;
+    padding:20px 0;
+}
+#logtest form p,
+#phtest form p,
+#safetest form p{
+    padding-left:20px;
+}
+#logtest form p:first-child,
+#phtest form p:first-child,
+#safetest form p:first-child{
+    height:50px;
+    line-height: 50px;
+    color:#000;
+}
+#logtest form p:nth-child(2),
+#phtest form p:nth-child(2),
+#safetest form p:nth-child(2){
+    height:70px;
+    line-height: 70px;
+}
+#changesucc img,
+#phonesucc img,
+#mailsucc img{
+    width:120px;
+    height:120px;
+}
+#logtest img,
+#phtest img,
+#phonest img,
+#safetest img,
+#setted img{
+    margin-top:20px;
+}
+#phonest img,
+#setted img{
+    height:150px;
+    width:150px;
+}
+#logtest form img,
+#phtest form img,
+#safetest form img{
+    margin-top:0;
+}
+#logtest input,#newpd form>input,#newpd p input,
+#setphone input,#phonecode input,#phonest input,#phtest input,
+#setmail input,#mailcode input,#setted input,#safetest input{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    width:220px;
+    margin:35px auto 0  auto;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#newpd p input,
+#logtest input,
+#phtest input,
+#safetest input{
+    display: inline-block;
+    margin:0 auto 0 15px;
+    background: none;
+}
+#newpd p input{
+    font-size: 1.6rem;
+    padding-left:20px;
+    width:300px;
+}
+#logtest form p:nth-child(2) input,
+#phtest form p:nth-child(2) input,
+#safetest form p:nth-child(2) input{
+    width:150px;
+    margin-left:25px;
+}
+#phonest input:last-child,
+#setted input:last-child{
+    margin:15px auto 0  auto;
+}
+#phonecode input,
+#mailcode input{
+    margin:20px auto 0  auto;
+}
+#logtest form>input:last-child,#newpd form>input,
+#setphone input:last-child,#phonecode input:last-child,#phonest input:last-child,#phtest form>input:last-child,
+#setmail input:last-child,#mailcode input:last-child,#setted input:last-child,#safetest form>input:last-child{
+    width:150px;
+    font-size: 1.6rem;
+    color:#fff;
+    border:none;
+    background: #009dd9;
+}
+#logtest form>input:last-child,
+#phtest form>input:last-child,
+#safetest form>input:last-child{
+    height: 35px;
+    line-height: 35px;
+    margin-top:10px;
+    margin-left:160px;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#unbindmic,#unbindwb,#unbindten{
+    width:470px;
+    height:190px;
+    border:2px solid #999;
+    display: none;
+    background: #fff;
+    border-radius:8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+#unbindmic p:first-child,#unbindwb p:first-child,#unbindten p:first-child{
+    height:120px;
+    line-height: 120px;
+    text-align: center;
+    color:#999;
+    font-size:2.5rem;
+    border-bottom: 1px solid #999;
+}
+#unbindmic a,#unbindwb a,#unbindten a{
+    display: inline-block;
+    height:70px;
+    width:233px;
+    line-height: 70px;
+    color:#999;
+    font-size:2rem;
+    text-align: center;
+}
+#unbindmic a:first-child,#unbindwb a:first-child,#unbindten a:first-child{
+    border-right:1px solid #999;
+}
+.feedback .contact input,
+ .feedback textarea{
+     border:1px solid #dedede;
+     border-radius:5px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+ }
+.feedback textarea{
+    width:460px;
+    height:200px;
+    resize: none;
+    font-size: 1.6rem;
+}
+.feedback .contact{
+    margin:30px 0 25px 0;
+}
+.feedback .contact input{
+    margin-left:20px;
+    width:260px;
+    height:40px;
+    line-height:40px;
+}
+.feedback .imgshot{
+    width:60px;
+    float:left;
+    height:80px;
+    line-height: 80px;
+}
+.feedback p span{
+    display:block;
+    width:60px;
+    height:25px;
+}
+.feedback .insert{
+    width:590px;
+    height:110px;
+    float:left;
+    margin-left:30px;
+}
+.feedback .insert input{
+    height:90px;
+    width:90px;
+    line-height:90px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+/*ÕÚ¸Ç²ã*/
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+

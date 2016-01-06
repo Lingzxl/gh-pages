@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-12-16 13:52:56
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+body{
+	background: #fff !important;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+/* a:link{color: #fff;text-decoration: none}
+a:visited{color: #fff;text-decoration: none}
+a:hover{color: #fff;text-decoration: none}
+a:active{color: #fff;text-decoration: none} */
+.pcnone{
+	display: none;
+}
+
+.wrapper{
+	height: 560px;
+    width: 450px;
+    margin: 50px auto;
+	text-align: center;
+}
+
+ h1{
+	font-weight: 400;
+	opacity: 0.2;
+	font-size: 4.0rem;
+}
+
+.content{
+	width: 80%;
+	height:260px;
+	border: 1px solid #D7D7D7;
+	text-align: center;
+	margin: 0 auto;
+	color:gray;	
+	padding:50px 10px;
+	position: relative;
+}
+
+.content p{
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.content button{
+	display: block;
+	padding:8px 20px;
+	background-color: #000;
+	width: 60%;
+	margin: 20px auto;
+	color:#fff;
+}
+
+/* .content a {
+	display: block;
+	padding:8px 20px;
+	background-color: #000;
+	width: 60%;
+	margin: 20px auto;
+} */
+
+.content .img a{
+	background-color: #fff;
+}
+
+.content a span{
+	color:#fff;
+	font-size: 1.5rem;
+}
+
+.content img{
+	position: absolute;
+	top:5px;
+	right: 5px;
+}
+
+/* 弹出框 重设密码*/
+.am-modal{
+	margin-left: none;
+	margin-top: -375px!important;
+	text-align: center!important;
+}
+
+.am-modal-dialog{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D7D7D7;
+	height: 260px!important;
+	width: 370px!important;
+	margin: 0 auto;
+}
+
+.am-modal-hd{
+	position: relative;
+}
+
+
+.am-modal-hd .imgl{
+	position: absolute;
+	top:5px;
+	left:5px;
+}
+
+.am-modal-hd .imgr{
+	position: absolute;
+	top:5px;
+	right:5px;
+}
+
+.am-modal-bd {
+	padding: 0;
+}
+
+.am-modal-bd input{
+	display: block;
+	width: 100%;
+	outline:none;
+	line-height: 45px;
+	height: 45px; 
+	background: #fff;
+    text-indent: 1rem;
+    border: none;
+}
+
+.am-modal-bd .input1{
+	border-top: 1px solid #D7D7D7;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+
+.am-modal-bd .input2{
+	border-top: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	border-left-style:none;
+	border-right-style:none;
+}
+
+.am-modal-bd button{
+	width: 30%;
+	padding: 0 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px; 
+	background-color:#0077D9;
+	display: block;
+	margin:15px auto;
+	color: #fff;
+	line-height: 35px;
+}
+
+.am-modal-bd form{
+	border-bottom: 1px solid #D7D7D7;
+	border-left-style:none;
+	border-right-style:none;
+	border-top-style:none;
+	height: 167px;
+}
+
+
+.am-dimmer{
+	background-color: rgba(255,255,255,1);
+}
+
+#doc-modal-2 input{
+	border-bottom: 1px solid #D7D7D7;
+}
+
+#doc-modal-2 .am-modal-dialog{
+    height: 206px!important;
+}
+
+#doc-modal-2 .am-modal-bd form{
+	height: 113px;
+}
+
+/* 重设手机#doc-modal-3，重设邮箱密码#doc-modal-4 */
+#doc-modal-3 .am-modal-dialog,
+#doc-modal-4 .am-modal-dialog,
+#doc-modal-5 .am-modal-dialog{
+    height: 293px!important;
+}
+
+#doc-modal-3 .input3,
+#doc-modal-4 .input3,
+#doc-modal-5 .input3{
+	border-bottom: 1px solid #D7D7D7;
+}
+
+#doc-modal-3 form,
+#doc-modal-4 form,
+#doc-modal-5 form{
+	position: relative;
+}
+
+#doc-modal-3 .am-modal-bd form a,
+#doc-modal-4 .am-modal-bd form a{
+	position: absolute;
+	right:0;
+	bottom:74px;
+	color:#D7D7D7;
+}
+
+#doc-modal-5 .am-modal-bd form a{
+	position: absolute;
+	right:0;
+	bottom:120px;
+	color:#D7D7D7;
+}
+
+#doc-modal-3 .am-modal-bd form,
+#doc-modal-4 .am-modal-bd form,
+#doc-modal-5 .am-modal-bd form{
+	height: 200px;
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-12-09 17:30:23
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+body{
+	background: #000;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.pcnone{
+	display: none;
+}
+
+.wrapper{
+	width:1280px;
+	margin:0 auto;
+    position: relative;
+}
+
+.wrapper .content{
+	width: 890px;
+	background-color: #fff;
+	margin-left: 130px;
+	position: absolute;
+	background-color: #fff;
+	min-height: 1000px;
+}
+
+.content header{
+	width:510px;
+	height:120px;
+	margin-left:25%;
+	position: relative;
+}
+
+header .s input{
+	width:100%;
+	height: 41px;
+    vertical-align:middle;
+    margin-top:40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-indent: 1em;
+    outline: none;
+}
+
+.s img{
+	position: absolute;
+	top:41px;
+	right: 0;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+}
+
+.content2{
+	width:75%;
+	margin:0 auto;
+	margin-top: 20px;
+	display: block;
+}
+
+.content2 .am-tabs{
+	overflow: hidden;
+	border-style: none;
+}
+
+.am-tabs-bd{
+	border:none;
+}
+
+#tab1 .div1,#tab1 .div2,#tab1 .div3{
+	margin:5px;
+	position: relative;
+	border-bottom-style: solid;
+	border-color: #E4E4E4;
+	border-width: 1px;
+	padding:10px;
+}
+
+#tab1 img{
+	width: 90px;
+	height: 90px;
+}
+
+#tab1 h3{
+	position: absolute;
+	top:-10px;
+	left:130px;
+}
+
+#tab1 p{
+	position: absolute;
+	top:50px;
+	left:130px;
+	font-size:1.4rem;
+	color: rgb(153,153,153);
+}
+
+#tab2 .div1,#tab2 .div2{
+	padding:10px;
+	margin:20px;
+	position: relative;
+	border-bottom-style: solid;
+	border-color: #E4E4E4;
+	border-width: 1px;
+}
+
+#tab2 .div1 .img,#tab2 .div2 .img{
+	width: 120px;
+	height: 70px;
+}
+
+#tab2  ul{
+	list-style: none;
+	position: absolute;
+	top:-10px;
+	left:110px;
+}
+
+#tab2  ul li{
+	padding: 5px;
+}
+
+#tab2  ul li p span{
+    font-size: 1.6rem;
+}
+
+#tab2  ul li span{
+    font-size: 1.2rem;
+    color: rgb(153,153,153);
+}
+
+#tab2  ul li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+
+
+
+

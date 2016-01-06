@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-30 14:48:58
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+ body{
+	background: #000!important;
+} 
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.pcnone{
+	display: none;
+}
+
+.wrapper{
+	width:1280px;
+	margin:0 auto;
+    position: relative;
+}
+
+.wrapper .content{
+	width: 890px;
+	background-color: #fff;
+	margin-left: 130px;
+	position: absolute;
+	min-height: 1000px;
+}
+
+.content .pvideo{
+	width: 65%;
+	height: 190px;
+	background-color: rgb(68,68,68);
+	margin-top: 10px;
+	margin-left: 12%;
+	position: relative;
+}
+
+.content .pvideo .img1{
+	position: absolute;
+	top:20px;
+	left:2%;
+}
+
+.content .pvideo .play{
+	position: absolute;
+	width: 65%;
+	height: auto;
+	top:25px;
+	right:15%;
+}
+
+.content .pvideo .play p,.timestart,.timeend{
+	color:#fff;
+	padding-bottom: 6px;
+}
+
+.content .pvideo .play .img2{
+    position: absolute;
+    right: 0;
+    top:0;
+
+}
+
+.content .pvideo .play .timestart{
+	margin-left:2%;
+	position: absolute;
+}
+
+.content .pvideo .play .timeend{
+	margin-left:70%;
+	position: absolute;
+}
+
+.introduce,.ssong{
+	width: 65%;
+	margin:0 auto;
+	position: relative;
+	top:30px;
+	margin-left: 12%;
+}
+
+.introduce .title{
+	font-size:2.2rem;
+	color:#000;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.introduce p,.ssong p{
+	color:rgb(102,102,102);
+	line-height: 30px;
+	font-size: 1.4rem;
+}
+
+.introduce .intro,{
+	margin-top:15px;
+	font-size: 1.6rem;
+}
+
+.introduce span{
+	font-size: 1.4rem;
+}
+
+.introduce .sopen,.ssong .ssopen,.introduce .sclose,.ssong .ssclose{
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ssong .ssopen,.ssong .ssclose{
+	margin-left: -7%;
+}
+
+.introduce .lots,.ssong .alots{
+	display:none;
+	color:rgb(102,102,102);
+	font-size: 1.4rem;
+	line-height: 30px;
+}
+
+/* 最热最新排行 */
+.afterlisten{
+	margin-left:12%;
+	width: 70%;	
+	height: 40px;
+	position: relative;
+	top:60px;
+}
+
+.hot-new{
+	position: absolute;
+	right:-16%;
+	top:10px;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+}
+
+.hot-new p{
+	margin-right:6%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(91,91,91);
+	padding:1% 3%;
+	border-radius: 3px;
+}
+
+.hot-new p:hover{
+	background:rgb(91,91,91);
+	color:#fff;
+}
+
+.hot-new, .hot-new p{
+	display: inline;
+	font-size: 1.4rem;
+}
+
+.afterhot,.afternew {
+	width: 70%;
+	height: 350px;
+	margin-left:12%;
+	position: relative;
+	margin-top: 60px;
+	margin-bottom: 100px;
+} 
+
+.afterhot .hot1,.afterhot .hot2,.afternew .new1,.afternew .new2{
+	width:100%;
+	height: 160px;
+	overflow: hidden;
+	position: absolute;
+	border-bottom-style: dashed;
+	border-width: 1px;
+	border-color:rgb(102,102,102);
+}
+
+.afterhot .hot1 .img{
+	background: url(../images/u24.png) no-repeat; 
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.afterhot .hot2 .img{
+	background: url(../images/u24.png) no-repeat; 
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.afterhot .hot2{	
+	top:170px;
+}
+
+.afternew .img{
+	background: url(../images/u10.png) no-repeat; 
+}
+
+.afternew .new1 .img{
+	background: url(../images/u10.png) no-repeat; 
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.afternew .new1 .img{
+	background: url(../images/u10.png) no-repeat; 
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.afternew .new2{	
+	top:170px;
+}
+
+.afterhot .img,.afternew .img{
+	position: absolute;
+	width: 50%;
+	height: 140px;
+    background-position: center center;
+	background-size: 100% 100%; 
+}
+
+.photlist p{
+	line-height: 30px;
+}
+
+.photlist .a{
+	margin-top:-5px;
+}
+
+.photlist span{
+    font-size: 1.2rem;
+    color:rgb(204,204,204);
+}
+
+.photlist p{
+	font-size:2.0rem;
+	
+}
+
+.afterhot .hotlist,.photlist,.afternew .hotlist{
+	position: absolute;
+	width: 47%;
+	top:30px;
+	right:0;
+	overflow: hidden;
+}
+
+.afterhot img,.afternew img{
+	margin-top: 3%;
+}
+
+.afterhot .photo,.afternew .photo{
+	vertical-align: bottom;
+}
+
+.liketxt{
+	margin-left: 3%;	
+}
+
+.liketxt span{
+    color:#000;
+}
+
+.hotlist span{
+	font-size: 1.2rem;
+}
+

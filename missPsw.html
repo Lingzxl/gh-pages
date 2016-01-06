@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>忘记密码</title>
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport" />
+		<link rel="stylesheet" type="text/css" href="css/amazeui.css">
+        <link rel="stylesheet" type="text/css" href="css/pcMissPsw.css">
+	    <link rel="stylesheet" type="text/css" href="css/mMissPsw.css" media="(max-width:614px)"> 
+	    <script type="text/javascript" src="js/device.min.js"></script>
+	</head>
+
+	<body>
+	   <div class="wrapper">
+<!-- 重设密码和使用手机验证登录 -->
+			<h1>如歌</h1>
+			<div class="content">
+				<p>提供两种方式帮助你重新登录如歌</p>
+				<!-- <a href="#"><span>重设密码</span></a>
+				<a href="#"><span>使用手机验证码登录</span></a>  -->
+				<button type="button"  class="am-btn"
+				  data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
+				  重设密码
+				</button>
+				<button type="button"  class="am-btn"
+				  data-am-modal="{target: '#doc-modal-2', closeViaDimmer: 0, width: 400, height: 225}">
+				  使用手机验证码登录
+				</button>
+				<div class="img">
+				 	<a href="login.html"><img src="images/u55.png"></a>
+				</div>
+			</div>
+<!-- 1,重设密码 -->
+			<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1" >
+			  <h1>如歌</h1>
+			  <div class="am-modal-dialog">
+			    <div class="am-modal-hd">
+			    	<h3>重设密码</h3>
+			    	<p>验证码将会发送至你的注册手机或邮箱</p>
+			      <a href="missPsw.html"><img src="images/u49.png" class="imgl"></a>
+			      <a href="missPsw.html"><img src="images/u55.png" class="imgr"></a>
+			    </div>
+			    <div class="am-modal-bd">
+			       <form>
+			         <input type="text" name="name" placeholder="邮箱或手机号" class="input1">  
+				     <input type="password" name="password" placeholder="验证码" class="input2"> 
+				     <!-- <a href="#">获取验证码</a> -->
+				     <button type="button"  class="am-btn"
+					  data-am-modal="{target: '#doc-modal-3', closeViaDimmer: 0, width: 400, height: 225}">
+					  获取验证码
+					</button>
+				   </form>
+			    </div>
+			  </div>
+			  <div class="footer pcnone">
+			    <footer>
+			      <ul class="choose">
+					<li><a href="missPsw.html"><span class="am-icon-chevron-left  am-icon-sm toleft"></span></a></li>
+					<li class="addcolor"><a href="#"><span class="am-icon-chevron-right am-icon-sm toright"></span></a></li>
+					<li><a href="#"><span class="am-icon-share-square-o am-icon-sm export"></span></a></li>
+					<li><a href="#"><span class="am-icon-leanpub am-icon-sm page"></span></a></li>
+					<li><a href="#"><span class="am-icon-paste am-icon-sm copy"></span></a></li>
+				  </ul>
+				</footer>
+			  </div>
+			</div>
+<!-- 2,使用手机验证码登录 -->
+			<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-2" >
+			  <h1>如歌</h1>
+			  <div class="am-modal-dialog">
+			    <div class="am-modal-hd">
+			    	<h3>使用手机验证码登录</h3>
+			    	<p>验证码将会发送至你的注册手机</p>
+			      <a href="missPsw.html"><img src="images/u49.png" class="imgl"></a>
+			      <a href="missPsw.html"><img src="images/u55.png" class="imgr"></a>
+			    </div>
+			    <div class="am-modal-bd">
+			       <form>
+			         <input type="text" name="name" placeholder="手机号" class="input1"/>  
+				    <!--  <a href="#">登录如歌</a> -->
+				    <button type="button"  class="am-btn"
+					  data-am-modal="{target: '#doc-modal-5', closeViaDimmer: 0, width: 400, height: 225}">
+					  登录如歌
+					</button>
+				   </form>
+			    </div>
+			  </div>
+			  <div class="footer pcnone">
+			    <footer>
+			      <ul class="choose">
+					<li><a href="missPsw.html"><span class="am-icon-chevron-left  am-icon-sm toleft"></span></a></li>
+					<li class="addcolor"><a href="#"><span class="am-icon-chevron-right am-icon-sm toright"></span></a></li>
+					<li><a href="#"><span class="am-icon-share-square-o am-icon-sm export"></span></a></li>
+					<li><a href="#"><span class="am-icon-leanpub am-icon-sm page"></span></a></li>
+					<li><a href="#"><span class="am-icon-paste am-icon-sm copy"></span></a></li>
+				  </ul>
+				</footer>
+			  </div>
+			</div>
+<!-- 1.1,重设手机密码 -->
+			<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-3" >
+			  <h1>如歌</h1>
+			  <div class="am-modal-dialog">
+			    <div class="am-modal-hd">
+			    	<h3>重设密码</h3>
+			    	<p>验证码将会发送至你的注册手机或邮箱</p>
+			      <a href="missPsw.html"><img src="images/u49.png" class="imgl"></a>
+			      <a href="missPsw.html"><img src="images/u55.png" class="imgr"></a>
+			    </div>
+			    <div class="am-modal-bd">
+			       <form>
+			         <input type="text" name="name" placeholder="手机号" class="input1"/>
+			         <input type="password" name="name" placeholder="新密码" class="input2"/> 
+			         <input type="text" name="name" placeholder="手机收到的6位数验证码" class="input3"/>   
+				     <!-- <a href="#">重设密码</a> -->
+				      <button type="button"  class="am-btn">重设密码</button>
+				      <a href="#">重发验证码</a>
+				   </form>
+			    </div>
+			  </div>
+			</div>
+<!-- 1.2,重设邮箱密码 -->
+			<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-4" >
+			  <h1>如歌</h1>
+			  <div class="am-modal-dialog">
+			    <div class="am-modal-hd">
+			    	<h3>重设密码</h3>
+			    	<p>验证码将会发送至你的注册手机或邮箱</p>
+			      <a href="missPsw.html"><img src="images/u49.png" class="imgl"></a>
+			      <a href="missPsw.html"><img src="images/u55.png" class="imgr"></a>
+			    </div>
+			    <div class="am-modal-bd">
+			       <form>
+			         <input type="email" name="name" placeholder="邮箱" class="input1"/>
+			         <input type="password" name="name" placeholder="新密码" class="input2"/> 
+			         <input type="text" name="name" placeholder="邮箱收到的6位数验证码" class="input3"/>   
+				     <!-- <a href="#">重设密码</a> -->
+				      <button type="button"  class="am-btn">重设密码</button>
+				      <a href="#">重发验证码</a>
+				   </form>
+			    </div>
+			  </div>
+			</div>
+<!-- 2.1,使用手机验证码登录2 -->
+			<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-5" >
+			  <h1>如歌</h1>
+			  <div class="am-modal-dialog">
+			    <div class="am-modal-hd">
+			    	<h3>使用手机验证码登录</h3>
+			    	<p>输入收到的6位短信验证码</p>
+			      <a href="missPsw.html"><img src="images/u49.png" class="imgl"></a>
+			      <a href="missPsw.html"><img src="images/u55.png" class="imgr"></a>
+			    </div>
+			    <div class="am-modal-bd">
+			       <form>
+			         <input type="text" name="name" placeholder="手机号" class="input2"/> 
+			         <input type="text" name="name" placeholder="手机收到的6位数验证码" class="input3"/>   
+				     <!-- <a href="#">重设密码</a> -->
+				      <button type="button"  class="am-btn">重设密码</button>
+				      <a href="#">重发验证码</a>
+				   </form>
+			    </div>
+			  </div>
+			</div>
+			<div class="footer pcnone">
+			    <footer>
+			      <ul class="choose">
+					<li><a href="login.html"><span class="am-icon-chevron-left  am-icon-sm toleft"></span></a></li>
+					<li class="addcolor"><a href="#"><span class="am-icon-chevron-right am-icon-sm toright"></span></a></li>
+					<li><a href="#"><span class="am-icon-share-square-o am-icon-sm export"></span></a></li>
+					<li><a href="#"><span class="am-icon-leanpub am-icon-sm page"></span></a></li>
+					<li><a href="#"><span class="am-icon-paste am-icon-sm copy"></span></a></li>
+				  </ul>
+				</footer>
+			</div>
+		</div> 
+
+         <script type="text/javascript" src="jquery/jquery-2.1.3.min.js"></script>
+		 <script type="text/javascript" src="jquery/amazeui.min.js"></script> 
+	</body>
+</html>

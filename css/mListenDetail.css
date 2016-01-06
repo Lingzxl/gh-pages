@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-17 10:23:35
+ * @version $Id$
+ */
+*{
+	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
+	margin:0;
+	padding:0;
+	font-size: 1.6rem;
+}
+
+body{
+	background: #fff!important;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.mobilenone{
+	display: none;
+}
+
+a:link{color: #fff;text-decoration: none}
+a:visited{color: #fff;text-decoration: none}
+a:hover{color: #fff;text-decoration: none}
+a:active{color: #fff;text-decoration: none}
+
+.wrapper{
+	width:100%;
+	margin:0 auto;
+    position: relative;
+}
+
+.mdownload{
+	width: 100%;
+	height:90px;
+	position: relative;
+	background-color:rgb(242,242,242);
+	top:0;
+	left: 0;
+	display: block;
+}
+
+.mdownload img{
+	border-radius: 30px;
+}
+
+.mdownload .close {
+	width: 6%;
+	height: 100px;
+	text-align: center;
+}
+
+.close .cl{
+	margin-top:25px;
+	color:#000;
+	font-size:2.2rem;
+}
+
+.mdownload .logo{
+	width: 30%;
+	height: 100px;
+	left:6%;
+	text-align: center;
+	line-height: 90px;
+}
+
+.mdownload .logo img{
+	width: 85px;
+	height: 85px;
+}
+ 
+.mdownload .downtxt{
+	width: 54%;
+	height: 100px;
+	left:36%;
+}
+
+.downtxt .txt,.downtxt .install{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 17px;
+}
+
+.downtxt .install{
+	font-weight: normal;
+	margin-top: 4%;
+}
+
+.mdownload .open{
+	width: 10%;
+	height: 100px;
+	left:90%;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 90px;
+}
+
+.close,.logo,.downtxt,.open{
+	position: absolute;
+}
+
+.header{
+    display: block;
+}
+
+header{
+	width: 100%;
+	height:70px;
+	background-color: rgb(36,41,44); 
+	text-align: center;
+	position: fixed;
+	left:0;
+	z-index: 2;
+}
+
+header span{
+	color:#fff;
+	font-size: 2.2rem;
+	line-height: 70px;
+}
+
+header .play{
+	margin-left: 5%;
+}
+
+.img{
+	width: 100%;
+	height:175px;
+	background: url(../images/u24.png) no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	position: relative;
+	margin-top: 70px;
+	display: block;
+}
+
+.img .txt{
+	float: left;
+	position: absolute;
+	left: 5%;
+	bottom:0;
+}
+
+.txt p{
+	font-size: 1.8rem;
+	color:#fff;
+}
+
+.img .txtsong{
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	right:5%;
+}
+
+.wrapper .content{
+	width: 100%;
+	margin-top: 30px;
+	position: absolute;
+	height:auto;
+	margin:0 auto;
+}
+
+.wrapper .content .pccontent{
+	width: 100%;
+	margin-left:0;
+}
+
+.wrapper .content .content1{
+	width: 90%;
+	margin:0 auto;
+	position: relative;
+}
+
+.contitle{
+	margin-bottom: 20px;
+}
+
+.contitle .title1{
+	font-size: 2.2rem;
+	color:#000;
+	font-weight: bold;
+}
+
+.contitle .title2{
+	font-size: 1.8rem;
+	color:rgb(148,148,148);
+	margin-bottom: 15px;
+}
+
+.photo,.like{
+	display: inline;
+}
+
+.like{
+	position: absolute;
+	right:0;
+}
+
+.contxt{
+	font-size: 2.2rem;
+	color:#fff;
+}
+
+section{
+	font-size: 1.8rem;
+	color:rgb(102,102,102);
+}
+
+section p{
+	text-indent: 2em;
+	line-height: 30px;
+
+}
+
+.btnlike{
+	width: 95%;
+	margin-top: 20px;
+	margin:0 auto;
+	display: block;
+	height: auto;
+}
+
+.btnlike span{
+	color:#000;
+	font-size: 1.7rem;
+}
+
+.btn{
+	width: 45%;
+	height: 40px;
+	background: #fff;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 8px;
+	border-style: solid; 
+	border-width: 1px;
+}
+
+.btn-down{
+	display: block;
+	margin-top: 30px;
+	width: 100%;
+	height:50px;
+	background-color:rgb(51,51,51);
+	border-radius: 8px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom:30px;
+	line-height: 50px;
+}
+
+.btn-down span{
+	font-size: 2.2rem;
+	color:#fff;
+}
+
+.foot{
+	display: block;
+	margin-top: 40px;
+}
+
+.wrapper .foot .song,
+.wrapper .foot .song1{
+	/* background-color: red; */
+	position: relative;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(134,134,134);
+	padding-top:25px;
+	padding-bottom:25px;
+	clear: both;
+	width: 100%;
+	margin-bottom: 0;
+	display: block;
+}
+
+.qu,.lot,.sname{
+	position: absolute;
+}
+
+.song img{
+	margin-left: 5%;
+}
+
+.song .qu{
+	top:25px;
+	left:35%;
+	font-size: 2.0rem;
+	color: rgb(134,134,134);
+}
+
+.song .lot{
+	display: block;
+    top:35px;
+    right:5%;
+    color: rgb(134,134,134);
+}
+
+.song .sname{
+	bottom:25px;
+	left: 35%;
+	font-size: 2.0rem;
+}
+
+.author{
+	height: 110px;
+	border: none;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(134,134,134);
+	margin-bottom: 10px;
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+.author img{
+	width:50px;
+    height:50px; 
+    border-radius:50%;
+}
+
+.author .ququ,.author .snamesname{
+	left: 23%;
+}
+
+.talk{
+	border-style: none;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: rgb(134,134,134);
+	margin-bottom: 10px;
+	display: block;
+}
+
+.talk .txt{
+	margin-left: 5%;
+	margin-bottom: 12px;
+    color: rgb(134,134,134);   
+}
+
+.talk .txt span{font-size: 1.8rem;}
+
+.talk img{
+	margin-left:5%;
+}
+ 
+.talk .qu1 ,.talk .lot1 ,.talk .sname1 {
+	top:55px;
+	left: 25%;
+	font-size: 1.8rem;
+}
+
+.talk .lot1 {
+	top:80px;
+	font-size: 1.6rem;
+}
+
+.talk .sname1{
+	top:105px;
+}
+
+.alltalk {
+	width: 100%;
+	text-align: center;
+	line-height: 2.0;
+	display: block;
+}
+
+.alltalk .all{
+	font-size: 2.0rem;
+}
