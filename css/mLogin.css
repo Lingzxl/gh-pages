@@ -51,6 +51,10 @@ header p{
 	margin:20px auto;
 }
 
+.error_msg{
+	width: 70%;
+}
+
 .content{
 	width: 95%;
 }
@@ -68,10 +72,8 @@ header p{
 }
 
 .about span{
-	float: left;
 	color:gray;
 }
-
 
 .am-icon-btn {
     width: 32px;
@@ -79,8 +81,18 @@ header p{
     line-height: 32px;
 }
 
+.about .zhuce{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin:0 auto;
+	display: block;
+}
+
 .zhuce a{
 	color:#00B9F2;
+	width: 100%;
+	font-size: 1.7rem;
 }
 
 .footer{

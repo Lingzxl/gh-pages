@@ -4,7 +4,7 @@
 * @Author: admin
 * @Date:   2015-12-21 11:17:04
 * @Last Modified by:   admin
-* @Last Modified time: 2015-12-21 11:37:17
+* @Last Modified time: 2016-01-07 16:43:07
 */
 *{
 	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
@@ -38,7 +38,7 @@ a:active{color: #fff;text-decoration: none}
 }
 
 header{
-	height: 160px;
+	height: 133px;
 	width: 100%;
 	text-align: center;
 }
@@ -66,13 +66,26 @@ header p{
 
 .message{
 	text-align: center;
+	position: relative;
+}
+
+.error_msg {
+    color: #F9F6F6;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    width: 65%;
+    left: 16%;
+    top: 50px;
+    background: #333333;
 }
 
 .content .message .input input{
 	line-height: 50px;
 	height: 50px;
 	width: 100%;
-	outline:none;
+	/*outline:none;*/
 	display: block;
     background: #fff;
 	border-top-style:none;

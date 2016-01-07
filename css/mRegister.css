@@ -4,7 +4,7 @@
 * @Author: admin
 * @Date:   2015-12-21 11:24:51
 * @Last Modified by:   admin
-* @Last Modified time: 2015-12-21 11:39:12
+* @Last Modified time: 2016-01-07 16:20:57
 */
 *{
 	font-family:"微软雅黑", "宋体","Glyphicons Halflings", "Microsoft Yahei", "华文黑体", "STHeiti", "Helvetica Neue", Helvetica,"sans-serif";
@@ -78,6 +78,10 @@ header p{
     width: 32px;
     height: 32px;
     line-height: 32px;
+}
+
+.zhuce{
+	display: block;
 }
 
 .zhuce a{
