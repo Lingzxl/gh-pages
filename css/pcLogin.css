@@ -102,6 +102,7 @@ header p{
     left: 16%;
     top: 37px;
     background: #333333;
+    display: none;
 }
 
 .about span{

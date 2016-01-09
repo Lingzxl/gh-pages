@@ -15,22 +15,22 @@
 }
 
 .wrapper .pcleft .menu{
-	width:130px;
+	width:100px;
     position: fixed;
-    margin-top: 250px;
+    margin-top: 182px;
 	text-align: center;
 }
 
 .menu ul{
 	list-style: none;
 	line-height: 30px;
+	padding-left: 0;
 }
 
 .menu ul li{
-	margin-left: 10%;
-    width: 50%;
-	padding-top:25%;
-	font-size: 2.0rem;
+    width: 100%;
+    padding: 18% 0;
+    font-size: 2.0rem;
 }
 
 .menu ul li a{
@@ -38,13 +38,9 @@
 }
 
 .menu .button{
-	width:55%;
-	height: 30px;
-	border-radius: 3px;
-	background-color: #fff;
-	margin-left: 23%;
-	margin-top: 0px;
-	color:#000;
+    color: #9D9D9D;
+    border: 1px solid #9D9D9D;
+    padding: 6px 14px;
 }
 
 .menu .button span{
@@ -52,21 +48,21 @@
 	font-size: 1.4rem;
 }
 
-.menu .search{
-	width:35px;
-	height:35px;
-	font-size:14px;
-	line-height: 35px;
-	margin-top: 20px;
+.menu .search img{
+	margin-top: 45px;
+}
+
+.menu ul li span{
+	color:#717171;
 }
 
 .menu ul .current{
-	border-bottom: 3px solid rgb(0,204,255);	
-	color:rgb(0,204,255);
+	background: #C6A502;	
+	color:rgb(255,255,255);
 }
 
 .menu ul .current span{
-	color:rgb(0,204,255);
+	color:rgb(255,255,255);
 }
 
 /* 搜索2，搜索歌词、听后感searchdiv2左侧的搜索框*/
@@ -166,113 +162,33 @@
 	margin-left: 2%;
 }
 
-.headd{
-	width: 45%;
-	top:0px;	
-	overflow: hidden;
-}
-
-.headd ul {
-    list-style: none;
-    margin-left:-28%;
-}
-
-.headd .dnone{
-	color:#fff;
-	font-size: 2.2rem;
-	font-weight: bold;
-}
-
-.headd .dcircle{
-	font-size: 2.6rem;
-}
-
 /* 滚动条、二维码 */
 .conright{
-	width:100%;
-	top:140px;
+	width:260px;
+	top:153px;
+	position: fixed;
 }
 
-.conright.code{
-	width: 30%;
-	height:200px;
-	top:17%;
-	right: 20%;
+.conright .code{
+	height: 241px;
+    width: 156px;
+    background:url(../images/code_bg.png);
 	color:#fff;
-}
-
-.conright .chesong,.conright .checlose{
-   width: 35%;
-   color: #fff;
-   font-size: 1.3rem;
-   text-decoration:underline;
-   bottom: 20px;
-}
-
-.conright .checlose{
-	display: none;
-	width: 12%;
+	margin-left: 120px;
 }
 
 .conright .code .code-img img{
-	width:45%;
-	max-width: 100%;
-	height: 45%;
-	margin-top: 50px;
+	height: 70%;
+    margin: 39px 15px 10px 15px;
+    width: 70%;
 }
 
-.download span{
-	font-size: 1.4rem;
-}
-
-/** 滚动条 main container */
-.jScrollbar { 
-	height:400px;
-	overflow:hidden;
-	position:fixed;
-	background-color:#000;
-	padding:5px;
-	margin-top: 10px;
-	display: none;
-	margin-left: -2%;
-}
-/* text container */
-.jScrollbar_mask { 
-	width:200px;
-	position:relative;
-	top:0;
-	float:left;
-}
-/* paragraphs */
-.jScrollbar .jScrollbar_mask p { 
-	margin:0;
-	padding:0;
-    line-height:25px; 
-	color:rgb(201,201,201);
-	font-size:1.2rem;
+.code p {
 	text-align: center;
-      
 }
 
-/* slider container */
-.jScrollbar_draggable { 
-	float:left;
-	width:12px;
-	height:380px;
-	overflow:hidden;
-	margin-left:-2%;
-	position:relative;
-	top:5px;
-}
-
-/** draggable **/
-.jScrollbar_draggable a.draggable { 
-	position:relative;
-	background-color:rgb(161,161,161);
-	display:block;
-	height:120px;
-	width:9px;
-	margin-left:6px;
-	/* cursor:s-resize; */
-	cursor:pointer;
+.code p span{
+	margin: 10px 32px;
+	font-size: 1.4rem;
+	opacity: 0.8;
 }

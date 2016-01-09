@@ -7,15 +7,15 @@
   // 记住我切换图片效果
  function change_pic(){
 	var imgObj = document.getElementById("caocao_pic");
-	var Flag=(imgObj.getAttribute("src",2)=="images/u234.png")
-	imgObj.src=Flag?"images/u123.png":"images/u234.png";
+	var Flag=(imgObj.getAttribute("src",2)=="images/checkbox1.png")
+	imgObj.src=Flag?"images/checkbox2.png":"images/checkbox1.png";
  }
 
  $(document).ready(function() {
   
    $(".error_msg").hide();
    
-   $('.btn_login').click(function(e) {     
+   $('.btn_login').click(function(e) {  
 	    //点击登陆  		     
 		var name = $.trim($('input[name=name]').val());  
 		var passwd = $.trim($('input[name=password]').val()); 
@@ -24,12 +24,17 @@
 		if (name == '') {   
 			$(".error_msg").html('请填写用户名');  
 			$(".error_msg").show().fadeOut(3500);
-			$('input[name=name]').focus();   
+			$('input[name=name]').focus().css('border', '2px solid #AB9113');
 				return false;
 		}else if (passwd == '') {  
 			$(".error_msg").html('请填写密码');  
 			$(".error_msg").show().fadeOut(3500);  
-			$('input[name=password]').focus(); 
+			$('input[name=password]').focus().css('border', '2px solid #AB9113'); 
+			    return false; 
+		}else if(!passwd == ''&& passwd.length<6){
+			$(".error_msg").html('密码小于6位');  
+			$(".error_msg").show().fadeOut(3500);  
+			$('input[name=password]').focus().css('border', '2px solid #AB9113'); 
 			    return false; 
 		}else{	
              $.ajax({			    

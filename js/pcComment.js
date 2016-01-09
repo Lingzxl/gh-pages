@@ -15,8 +15,8 @@ $(function() {
 						 	+'<li><a href="news.html"><span>消息</span></a></li>'
 						 	+'<li><a href="my.html"><span>我的</span></a></li>'
 					      +'</ul>'
-					        +'<a href="editPage.html"><div class="button"><span>写听后感</span></div></a>'
-					        +'<p><a href="#"><span class="am-icon-search am-icon-btn search"></span></a></p>'
+					        +'<a href="editPage.html"><p class="button"><img src="images/write.png"/><span>写听后感</span></p></a>'
+					        +'<p><a href="#"><span class="search"><img src="images/search1.png"/></span></a></p>'
 					    +'</div>'
 
     +'<div class="search_ab mobilenone">' 
@@ -81,80 +81,14 @@ $(function() {
 /*-------------------------------------------加载左边的html---------------------------------------------*/
 	if (document.getElementById("pcright")) {
 		$("#pcright")
-				.html('<div class="aa"><div class="headd mobilenone">'
-					    +'<ul>'
-					     +'<li><span class="dnone">罗生门</span></li>'
-					     +'<li><span class="am-icon-play-circle-o am-icon-sm dcircle" style="color: #FFF;font-size:2.6rem;"></span></li>'
-					    +'</ul>'
-					   +'</div>' 
-
-					 +'<div class="conright mobilenone">'
-					   +'<a href="#"><span class="chesong">查看歌曲</span></a>'
-					   +'<a href="#"><span class="checlose">收起</span></a>'
+				.html('<div class="conright mobilenone">'
 					 +'<div class="code">'
 					   +'<p class="code-img">'
-					   +'<img src="images/cade.jpg" height="220" width="220" alt=""></p>'
-					   +'<p class="download">'
-					   +'<a href="#"><span class="am-icon-mobile am-icon-md" style="color: #fFF;">下载如歌客户端</span></a>'
-					   +'</p>'
+					   +'<img src="images/code.png"></p>'
+					   +'<p class="code-txt"><span>扫描二维码</span></p>'
+					   +'<p class="code-txt"><span>下载如歌App</span></p>'
 				     +'</div>'
-
-					+'<div class="jScrollbar"><div class="jScrollbar_mask">'
-					   +'<p>男：若果你 未觉荒谬<br>被传闻谈论的疯子<br>'
-						  +'女：很感激 喜欢我十年 六百周<br>'
-						  +'耿耿于你心 六百周<br>'
-						  +'男：若果你 未觉荒谬<br>'
-						  +'女：很感激 喜欢我十年<br>'
-						  +'耿耿于你心 六百周<br>'
-						  +'男：若果你 未觉荒谬<br>被传闻谈论的疯子 挽着手<br>'
-						  +'女：很感激 喜欢我十年<br>耿耿于你心 六百周<br>'
-						  +'男：若果你 未觉荒谬<br>被传闻谈论的疯子 挽着手<br>'
-						  +'女：很感激 喜欢我十年<br>耿耿于你心 六百周<br>'
-						  +'男：很可惜 这一世未能<br> 长厮守 但事实 如若告诉<br>'
-						  +'男：若果你 未觉荒谬<br>被传闻谈论的疯子 挽着手<br>'
-						  +'女：很感激 喜欢我十年<br>'
-					   +'</p>'
-					+'</div>'
-
-				  +'<div class="jScrollbar_draggable"><a href="#" class="draggable"></a></div>'
-
-				  +'</div>'
-				  +'</div>'
 				  +'</div>');
 	}
-
-   /*设置歌词收起展开，并且二维码的变化随之变化*/
-		$(document).ready(function() {
-		if($(".conright .code").is(":visible")==true){
-			$('.conright .chesong').click(function(){
-				$('.conright .code').hide();
-				$('.conright .jScrollbar').css('display', 'block');
-				$('.conright .chesong').hide();
-				$('.conright .checlose').css('display', 'block');
-			
-			  if($(".conright .jScrollbar").is(":visible")==true){
-			  	$('.jScrollbar').jScrollbar();//滚动条滚动
-			    $('.conright .checlose').click(function(){
-                $('.conright .jScrollbar').hide();
-                $('.conright .code').css('display', 'block');
-                $('.conright .chesong').css('display', 'block');
-                $('.conright .checlose').css('display', 'none');
-		         });
-		      }
-	       });
-		}		
-});
-
-   /* 使自定义滚动条和页面滚动条不一起滚动*/
-	$(document).ready(function () {
-		$('.conright .jScrollbar').mouseenter(function () {
-			var stop = $(document).scrollTop();
-			$(document).scroll(function (e) {
-				$(this).scrollTop(stop);
-			});
-		}).mouseleave(function(){
-			$(document).unbind('scroll');
-		});
-	});
  });
 

@@ -97,16 +97,19 @@
                     '</div>'+
                 '<div class="contxt">'+
                     '<div class="txttop mobilenone">'+
-                         '<a href="#">'+
-                     '<p class="disp">'+
-                             '<a href="#"><img src="'+data.topics[i]._author.avatar_api+'" height="27" width="27" alt=""></a>'+
-                             '<span style="color:rgb(0,204,255);">'+data.topics[i]._author.name+'</span></p></a>'+      
-                             '<a href="#"><p class="disp"><b>·</b>《'+data.topics[i].song.name+'》</p></a>'+
+                      '<a href="#"><p class="disp">/'+data.topics[i].song.name+'</a>'+
+                      '<a href="#"><p class="txtsize">'+data.topics[i].title+'</p></a>'+                                  
                     '</div>'+
-                    '<div class="txtmid mobilenone">'+
-                        '<a href="#"><p class="txtsize">'+data.topics[i].title+'</p></a>'+            
-                        '<p><span>'+data.topics[i]._ups.length+'</span><span>喜欢</span>'+
-                        '<span>'+data.topics[i].reply_count+'</span><span>评论</span></p>'+
+                    '<div class="txtmid mobilenone">'+                                   
+                        '<p class="disp">'+                       
+                          '<span class="disp"><a href="#"><img src="'+data.topics[i]._author.avatar_api+'" height="35" width="35" alt=""></span>'+
+                          '<span>'+data.topics[i]._author.name+'</span></a>'+
+                          '<p class="ptalk">'+ 
+                            '<span><img src="images/like.png"/></span><span>'+data.topics[i]._ups.length+'</span>'+
+                            '<span>/</span>'+ 
+                            '<span><img src="images/talk.png"/></span><span>'+data.topics[i].reply_count+'</span>'+
+                          '</p>'+
+                        '</p>'+
                     '</div>'+
                     '<div class="bg_image">'+
                     '<div class="mtop pcnone">'+
@@ -115,13 +118,13 @@
                     '<div class="mmiddle pcnone">'+
                         '<a href="#"><p class="mdisp">《'+data.topics[i].song.name+'》</p></a>'+
                     '</div>'+
-                    '<div class="mbottom pcnone">'+
-                        '<a href="#">'+
-                          '<span class="mdisp">'+
-                          '<img src="'+data.topics[i]._author.avatar_api+'" height="27" width="27" alt="">'+            
-                           '<span style="font-size:1.2rem;">'+data.topics[i]._author.name+'</span>'+
-                            '</span>'+
-                         '</a>'+
+                    '<div class="mbottom pcnone">'+                        
+                        '<span class="mdisp">'+
+                          '<a href="#">'+
+                            '<img src="'+data.topics[i]._author.avatar_api+'" height="27" width="27" alt="">'+            
+                            '<span style="font-size:1.2rem;">'+data.topics[i]._author.name+'</span>'+
+                          '</a>'+
+                        '</span>'+                        
                         '<span class="mtalk">'+
                           '<span>'+data.topics[i]._ups.length+'</span><span>喜欢</span>'+
                           '<span>'+data.topics[i].reply_count+'</span><span>评论</span>'+
