@@ -149,7 +149,7 @@
 /* --------------------------------------右侧css--------------------------------- */
 .wrapper .pcright{
    	position: absolute;
-   	width:260px;
+   	width:170px;
    	right:0;
    	top:0;
    	height: 300px;
@@ -171,10 +171,9 @@
 
 .conright .code{
 	height: 241px;
-    width: 156px;
-    background:url(../images/code_bg.png);
+  width: 156px;
+  background:url(../images/code_bg.png);
 	color:#fff;
-	margin-left: 120px;
 }
 
 .conright .code .code-img img{

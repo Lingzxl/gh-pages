@@ -74,7 +74,7 @@
         pageSize =5,
         loading = false,
         loadFinish = false;
-  function loadItem(p, s,h) {
+   function loadItem(p, s,h) {
         loding = true;
         $.get('http://120.24.14.108:3000/api/v1/topics', {offset:p,limit:s,hot:h}, function(data, status) {
             if (status === 'success') {
@@ -164,6 +164,20 @@
         });
     }
 
+  // 点击登录注册弹出页面
+    $('.headc .login_class').click(function(){
+      $('.content_login').show();
+      $('.footer lz').show();
+      $('.content_register').hide();
+      $('.footer lz1').hide();
+    });
+    
+     $('.headc .register_class').click(function(){
+      $('.content_register').show();
+      $('.footer lz1').show();
+      $('.content_login').hide();
+      $('.footer lz').hide();
+    });
 
 
 

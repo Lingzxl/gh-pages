@@ -41,7 +41,7 @@
 			<button type="button" class="login_class"  data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
 			    登录
 			</button>
-			<button type="button"  data-am-modal="{target: '#doc-modal-2', closeViaDimmer: 0, width: 400, height: 225}">
+			<button type="button" class="register_class" data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
 			    注册
 			</button> 
 		</div>
@@ -124,19 +124,17 @@
 	<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
 	  <div class="am-modal-dialog">
 	    <div class="am-modal-hd">
-	    <header>
-			<h1>如歌</h1>
-			<p>分享与挖掘深度好音乐</p>
-		</header>
-	      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close><img src="images/cancel.png"/></a>
+		  <h1>如歌</h1>
+		  <p>分享与挖掘深度好音乐</p>
+		  <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close><img src="images/cancel.png"/></a>
 	    </div>
 	    <div class="am-modal-bd">
-	     <div class="content_login">
+	     <div class="content_login" style="display:none">
 	         <div class="message">
 	         <div class="error_msg"></div>  
 				<form method="post" action="http://120.24.14.108:3000/api/v1/login">
 				    <div class="input">
-						<input type="text" name="name" placeholder="邮箱或手机号" class="phone">  
+						<input type="text" name="phone" placeholder="手机号" class="phone">  
 						<input type="password" name="password" placeholder="密码" class="pass"> 
 				    </div> 
 					<button type="submit" class="btn_login">登录</button>
@@ -146,14 +144,54 @@
 			    <div class="zhuce pcnone"><a href="register.html">注册如歌账号</a></div>
 					<img src="images/checkbox1.png" id="caocao_pic" onClick="change_pic()">
 					<span>记住我</span> 
-				<a href="missPsw.html"><span>忘记密码</span></a>
+					<a href="#missPsw" class="missPsw"><span>忘记密码？</span></a>
 			 </div>
 		</div>
+		<div id="missPsw" style="display:none">
+			<p>验证码将会发送至你的注册手机</p>
+			 <form>
+			     <input type="text" name="phone" placeholder="手机号" class="input1"> 
+			     <input type="text" name="newPsw" placeholder="新密码" class="input2">   
+			     <input type="password" name="password" placeholder="6位数验证码" class="input3"> 
+			     <button type="button"  class="btn">点击获取验证码</button>
+			     <button type="button"  class="btn_reset">重设密码</button>
+		    </form>
+		</div>
+		<div class="content_register" style="display:none">
+	         <div class="message">
+	         <div class="error_msg"></div>  
+				<form action="http://120.24.14.108:3000/api/v1/signup" method="post">
+				    <div class="input">
+				        <input type="text" name="name" placeholder="昵称">
+						<input type="text" name="account" placeholder="手机号">  
+						<input type="password" name="password" placeholder="密码"> 
+				    </div> 
+					<button type="submit" class="btn_register">注册</button>
+					<div class="zhuce pcnone">
+						<a href="#"><span>登录如歌账号</span></a>
+				    </div>
+				</form>
+	         </div>
+		</div>
+
+		<div id="registerCode" style="display:none">
+		    <p>请输入您收到的6位数短信验证码</p>
+		    <div class="error_msg"></div> 
+		    <form action="http://120.24.14.108:3000/api/v1/active_account" method="post">
+		      <div class="input_code">
+			    <input type="text" name="phone" placeholder="">
+				<input type="text" name="code" placeholder="6位数验证码">
+				<button type="submit" class="lyouge">重发验证码</button>
+				<button type="submit" class="jr">进入如歌</button>
+			  </div>
+			</form>
+		</div>
+
 		<div class="footer">
-		    <div class="lz mobilenone">
-				<a href="login.html">登录</a>
+		    <div class="lz mobilenone" style="display:none">
+				<!-- <a href="login.html">登录</a>
 				<span>&middot;</span>
-				<a href="register.html"><span>注册</span></a>
+				<a href="register.html"><span>注册</span></a> -->
 			</div>
 			<hr/>
 			<span class="text">使用第三方账号登录</span>
@@ -170,17 +208,6 @@
 	    </div>
 	  </div>
 	</div>
-
-	<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-2">
-	  <div class="am-modal-dialog">
-	    <div class="am-modal-hd">Modal 标题
-	      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
-	    </div>
-	    <div class="am-modal-bd">
-	      Modal 内容。本 Modal 无法通过遮罩层关闭。
-	    </div>
-	  </div>
-	</div>    
 			
   
 </div>     
