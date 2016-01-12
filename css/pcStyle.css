@@ -385,6 +385,23 @@ a:active{color: rgba(255,255,255,0.4);text-decoration: none}
 
 /*登录注册
 */
+#xs{
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  
+}
+
+#xs  a span{
+  color:#C6A502; 
+}
+
+#xs .exit{
+  font-size: 1.1rem;
+  margin-left: 20px;
+  color: rgba(255,255,255,0.8);
+}
+
 .am-dimmer{
   /*background: url(../images/bg2.png)!important;*/
   background-color: #14161A;
@@ -451,6 +468,10 @@ header p{
   border-bottom-style: 1px solid #666666;
   text-indent: 1rem;
   margin-top: 10px;
+  color: #000;
+}
+
+#registerCode .input_code input{
   color: gray;
 }
 
@@ -576,6 +597,7 @@ hr{
   border: none;
   background: transparent;
   color:gray;
+  outline: none;
 
 }
 
@@ -586,6 +608,7 @@ hr{
     margin-top: 15px;
     background-color:  #AB9113;
     width: 100%;
+    outline: none;
 }
 
 #missPsw{

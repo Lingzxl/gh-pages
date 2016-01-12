@@ -4,8 +4,25 @@
  * @date    2015-11-30 11:32:56
  * @version $Id$
  */
+var itemCount = localStorage.length;
+if(itemCount>0&&"" != getname){
 
- 
+  $('#button').remove(); 
+   var tableElem = document.getElementById("xs");
+// tableElem.innerHTML = "";
+
+//document.getElementById("xs").innerHTML = itemCount;
+//for (var i = 0; i < itemCount; i++) {
+    //var key = localStorage.key(1); 
+   // var val = localStorage[key];
+   var storage = window.localStorage;  
+   var getname = storage["name"];  
+     tableElem.innerHTML += '<p><a href="#"><span class="am-icon-users">' +getname+ '</span>&nbsp;</a>'+
+    '<a><span class="exit">退出</span></a></p>'; 
+}else{
+  $('#xs').remove(); 
+}
+
     /*从底部回到顶部*/
   $(document).ready(
 			function(){
@@ -68,6 +85,7 @@
 
   div_hot.attr('id', 'div_hot');
   div_new.attr('id', 'div_new');
+
 
  /////////主题列表//////////////////////
         var page = 0,
